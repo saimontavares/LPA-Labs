@@ -2,7 +2,7 @@
 #include <string.h>
 
 int tamanhoMaximo = 3;
-char caracteres[3] = "abc";
+char caracteres[] = "abc";
 char newline = '\0';
 
 void gerarPermutacoesRecursivo(char* pwd, int pos, int size){

@@ -3,9 +3,10 @@
 #include <string.h>
 #include <crypt.h>
 
-int tamanhoMaximo = 3;
-char caracteres[3] = "abc";
-char *senhaCriptografada = "$6$7yCakIXevncmT6se$m002Lkf2BK6Qgyhc.c/PxMTvcmBAXYtIokUKvWwvB5H5zCt5HhhPOlV8ygebOcSsgNqG74whVwN.8UF9WaGfs/";
+int tamanhoMaximo = 10;
+int tamanhoSenha = 5;
+char caracteres[] = "0123456789";
+char *senhaCriptografada =  "$6$l2xE4w9twgjtnZBz$9YK9krslZFraLffy5VNiahAfT.xZNvB54j91DMCMIoVFvj335ZKxb11qgVMn.KzU2GqVPPyS2FTBqPSciYq761";
 char newline = '\0';
 int achou = 0;
 
@@ -33,7 +34,7 @@ void gerarPermutacoesRecursivo(char* pwd, int pos, int size){
 	}
 }
 int main(int argc, char* argv[]){
-	for(int i = 1; i <= tamanhoMaximo; i++){
+	for(int i = 1; i <= tamanhoSenha; i++){
 		gerarPermutacoesRecursivo(&newline, 0, i);
 	}
 	return 0;
