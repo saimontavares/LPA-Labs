@@ -16,7 +16,7 @@ void gerarPermutacoesRecursivo(char* pwd, int pos, int size){
 }
 
 int main(int argc, char* argv[]){
-	for(int i = 1; i <= tamanhoMaximo; i++){
+	for(int i = 1; i <= 3; i++){
 		gerarPermutacoesRecursivo(&newline, 0, i);
 	}
 	return 0;
