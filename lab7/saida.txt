@@ -1,0 +1,23 @@
+Lendo Chunk 1:
+	--> Tamanho: 13
+	--> Tipo: IHDR
+		--> Largura: 160
+		--> Altura: 80
+Lendo Chunk 1:
+	--> Tamanho: 6
+	--> Tipo: bKGD
+Lendo Chunk 1:
+	--> Tamanho: 9
+	--> Tipo: pHYs
+Lendo Chunk 1:
+	--> Tamanho: 7
+	--> Tipo: tIME
+Lendo Chunk 1:
+	--> Tamanho: 25
+	--> Tipo: tEXt
+Lendo Chunk 1:
+	--> Tamanho: 785
+	--> Tipo: IDAT
+Lendo Chunk 1:
+	--> Tamanho: 0
+	--> Tipo: IEND
